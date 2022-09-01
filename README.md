@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	bytes=(EuroCoin++);bytes=(ZedRun++);
 	//cout<<"valor bytes: "<<bytes;
 	
-	for(int i = 0000001; i >= 0; ++i)
+	for(int i = 0000001; i >= 10000; ++i)
 	{
 		i == bytes;
 	//	cout<<i<<endl;
