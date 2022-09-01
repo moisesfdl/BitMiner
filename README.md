@@ -30,6 +30,24 @@ int main(int argc, char** argv)
 	}
 	long int i = 'Value';
 	cout<<i<<sizeof(char)<<endl;
+	
+	
+	int nome = ('moises ferreira de lima');
+	cout << nome << endl;
+	//cout<<"Meu Nome E: "<<nome<<endl;
+	int rg = ('275.551.158-32');
+	cout << rg << endl;
+	//cout<<"Meu Documento Rg: "<<rg<<endl;
+	int cpf = ('275.551.158-32');
+	cout << cpf << endl;
+	nome = rg=cpf;
+	int endereco;int cep =('12.214-563');
+	int rua = ('paturi');int NumeroResidencia = ('230');
+	int bairro = ('buquirinha2');int cidade = ('sao jose dos campos');
+	int estado = ('sao paulo');int pais = ('brasil');
+	endereco = rua+NumeroResidencia+bairro+cidade+estado+pais;
+	cep = endereco;int correio;
+	cout <<"Meu Endereço: " <<&endereco << endl;
 	//system("PAUSE");
 	return 0;
 }
